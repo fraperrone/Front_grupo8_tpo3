@@ -1,0 +1,64 @@
+:root {
+  --background: #0d0221;
+  --primary-accent: #ff00e5;
+  --secondary-accent: #00f6ff;
+  --text-main: #c0c1c9;
+  --text-secondary: #2d1f50;
+}
+
+.footerContainer {
+  background-color: var(--background);
+  color: var(--text-main);
+  padding: 25px 40px;
+  border-top: 2px solid var(--primary-accent); /* Un borde neón para separar del resto del contenido */
+  font-family: "Consolas", "Menlo", "monospace"; /* Fuente monoespaciada para un look más tech */
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 14px;
+}
+
+.footerContent p {
+  margin: 0;
+  /* Efecto de texto sutil */
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.3);
+}
+
+.footerLinks a {
+  color: var(--secondary-accent); /* Enlaces en Cian Láser */
+  text-decoration: none;
+  margin: 0 15px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.footerLinks a:hover {
+  color: var(
+    --primary-accent
+  ); /* Al pasar el mouse, cambian a Magenta Eléctrico */
+  text-shadow: 0 0 8px var(--primary-accent); /* Efecto de brillo neón */
+  transform: scale(1.1); /* Un pequeño zoom para más dinamismo */
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+  .footerContent {
+    flex-direction: row;
+    font-size: small;
+  }
+
+  .footerContainer {
+    height: 158px;
+  }
+}

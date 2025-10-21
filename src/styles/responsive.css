@@ -1,0 +1,40 @@
+/* styles/responsive.css */
+/* Breakpoint: Tablet (768px) */
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    padding: 20px;
+    padding-top: 80px; /* Account for mobile navbar */
+  }
+
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Breakpoint: Mobile (480px) */
+@media (max-width: 480px) {
+  .main-content {
+    padding: 10px;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .profile {
+    flex-direction: column;
+  }
+
+  .avatar,
+  .name {
+    width: 100%;
+  }
+}
+
+/* Breakpoint: Desktop (1200px) */
+@media (min-width: 1200px) {
+  .cards-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

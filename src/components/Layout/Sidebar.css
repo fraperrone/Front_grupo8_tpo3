@@ -1,0 +1,235 @@
+/* components/Layout/Sidebar.css */
+
+/* Desktop Sidebar Styles */
+.sidebar {
+  width: 250px;
+  height: 100dvh;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+/* Hide desktop sidebar on mobile */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.w-full {
+  width: 100%;
+}
+
+.sidebar-logo {
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar-logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.sidebar-logo h2 {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 15px;
+}
+
+.sidebar-nav a {
+  display: block;
+  padding: 12px 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav li.active a {
+  background: rgba(66, 30, 132, 0.8);
+  transform: translateX(5px);
+}
+
+/* Mobile Menu Overlay */
+.mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+  opacity: 0;
+  animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Mobile Navbar Styles */
+.mobile-navbar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1001;
+  background: rgba(15, 15, 35, 0.9);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .mobile-navbar {
+    display: block;
+  }
+}
+
+.mobile-nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.mobile-logo {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1002;
+}
+
+.hamburger span {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+/* Hamburger Animation */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Mobile Navigation Menu */
+.mobile-nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: rgba(15, 15, 35, 0.5);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.mobile-nav.active {
+  max-height: 300px;
+}
+
+.mobile-nav-list {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.mobile-nav-list li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 0 10px;
+}
+
+.mobile-nav-list li:last-child {
+  border-bottom: none;
+}
+
+.mobile-nav-list a {
+  display: block;
+  padding: 18px 20px;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background: transparent;
+  border-radius: 8px;
+  margin: 2px 0;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.mobile-nav-list a:hover {
+  background: rgba(66, 30, 132, 0.9);
+  padding-left: 30px;
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(66, 30, 132, 0.3);
+}
+
+.mobile-nav-list li.active a {
+  background: rgba(66, 30, 132, 1);
+  padding-left: 30px;
+  box-shadow: 0 4px 12px rgba(66, 30, 132, 0.4);
+  border-left: 4px solid #00ffff;
+}
+
+/* Content adjustment for mobile */
+@media (max-width: 768px) {
+  .app {
+    padding-left: 0 !important;
+  }
+
+  /* Add padding to content to account for mobile navbar */
+  .app > div:not(.mobile-navbar) {
+    padding-top: 100px;
+  }
+}

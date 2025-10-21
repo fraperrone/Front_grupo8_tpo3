@@ -1,8 +1,14 @@
 # Front_grupo8_tpo3
 
-prubea imagen
-<img width="451" height="253" alt="image" src="https://github.com/user-attachments/assets/2fdcfb7c-ed6a-46d8-a03b-e3fbd006670d" />
+En el siguiente README se detallan las nuevas mejoras implementadas en el proyecto. Se incluye una imagen representativa del estado anterior y otra que muestra la mejora aplicada, acompañada de una breve descripción que explica los cambios realizados y su impacto funcional o visual.
+
+---
 
 
-![alt text](image.png)
-prueba 2
+![imagen de prueba](imgs_readme/image.png)
+
+prueba 2: vemos como linkeamos una imagen 
+
+---
+
+

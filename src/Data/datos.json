@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "titulo": "The Matrix",
+    "tipo": "Película",
+    "genero": "Ciencia Ficción",
+    "año": 1999,
+    "descripcion": "Un hacker descubre la verdad sobre su realidad y su papel en la guerra contra los inteligentes robots."
+  },
+  {
+    "id": 2,
+    "titulo": "1984",
+    "tipo": "Libro",
+    "autor": "George Orwell",
+    "año": 1949,
+    "descripcion": "Novela distópica sobre un régimen totalitario y la vigilancia masiva."
+  },
+  {
+    "id": 3,
+    "titulo": "The Legend of Zelda: Breath of the Wild",
+    "tipo": "Videojuego",
+    "genero": "Aventura",
+    "año": 2017,
+    "descripcion": "Juego de aventuras en mundo abierto con exploración y puzzles."
+  },
+  {
+    "id": 4,
+    "titulo": "Inception",
+    "tipo": "Película",
+    "genero": "Ciencia Ficción",
+    "año": 2010,
+    "descripcion": "Un ladrón que roba secretos del subconsciente enfrenta una tarea imposible."
+  },
+  {
+    "id": 5,
+    "titulo": "Cien años de soledad",
+    "tipo": "Libro",
+    "autor": "Gabriel García Márquez",
+    "año": 1967,
+    "descripcion": "Novela realista mágica sobre la familia Buendía en Macondo."
+  },
+  {
+    "id": 6,
+    "titulo": "The Witcher 3: Wild Hunt",
+    "tipo": "Videojuego",
+    "genero": "RPG",
+    "año": 2015,
+    "descripcion": "Juego de rol de mundo abierto basado en las novelas de Andrzej Sapkowski."
+  },
+  {
+    "id": 7,
+    "titulo": "Interstellar",
+    "tipo": "Película",
+    "genero": "Ciencia Ficción",
+    "año": 2014,
+    "descripcion": "Un grupo de exploradores viaja a través de un agujero de gusano en el espacio."
+  },
+  {
+    "id": 8,
+    "titulo": "Dune",
+    "tipo": "Libro",
+    "autor": "Frank Herbert",
+    "año": 1965,
+    "descripcion": "Épica de ciencia ficción sobre el planeta desértico Arrakis."
+  },
+  {
+    "id": 9,
+    "titulo": "Red Dead Redemption 2",
+    "tipo": "Videojuego",
+    "genero": "Aventura",
+    "año": 2018,
+    "descripcion": "Historia de forajidos en el viejo oeste americano."
+  },
+  {
+    "id": 10,
+    "titulo": "Blade Runner 2049",
+    "tipo": "Película",
+    "genero": "Ciencia Ficción",
+    "año": 2017,
+    "descripcion": "Un nuevo blade runner descubre un secreto que podría sumir a la sociedad en el caos."
+  }
+]
