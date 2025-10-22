@@ -1,6 +1,6 @@
 // src/pages/ApiDataPage.jsx
 import React from "react";
-import ApiData from "../Data/ApiData";
+import ApiData from "../data/ApiData";
 
 const ApiDataPage = () => {
   return (

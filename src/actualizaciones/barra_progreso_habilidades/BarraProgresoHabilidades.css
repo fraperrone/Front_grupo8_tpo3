@@ -1,0 +1,141 @@
+/* Estilo cyberpunk para la barra de progreso de habilidades */
+/* Paleta: magenta, cian, púrpura, brillo neón */
+:root{
+  --bg:#0b0f14;
+  --panel: rgba(10,12,18,0.55);
+  --accent1: #ff2d95;
+  --accent2: #00e6ff;
+  --accent3: #a24cff;
+  --glass-border: rgba(255,255,255,0.06);
+}
+
+/* contenedor general */
+.barra-progreso-habilidades{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 18px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  border-radius: 12px;
+  backdrop-filter: blur(6px) saturate(1.1);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 6px 30px rgba(10,12,20,0.6), 0 0 18px rgba(0,230,255,0.03) inset;
+  color: #e6eef8;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* fila por habilidad */
+.habilidad{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* nombre de la habilidad */
+.nombre-habilidad {
+  max-width: none; /* en lugar de min/max */
+
+
+
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #dfeeff;
+  text-shadow: 0 0 6px rgba(162,76,255,0.18), 0 0 10px rgba(0,230,255,0.06);
+  letter-spacing: 0.4px;
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}
+
+/* fondo de la barra */
+.barra-fondo {
+  min-width: 50%;
+
+  flex: 1;
+  height: 14px;
+  position: relative;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.03);
+}
+/* barra llenada (animada) */
+.barra-llenada{
+  
+
+  height: 100%;
+  border-radius: 999px;
+  transition: width 850ms cubic-bezier(.2,.9,.2,1);
+  position: relative;
+  background: linear-gradient(90deg, var(--accent2), var(--accent1), var(--accent3));
+  background-size: 300% 100%;
+  animation: gradient-move 3.8s linear infinite, glow 2.6s ease-in-out infinite;
+  box-shadow: 0 6px 20px rgba(162,76,255,0.08), 0 0 18px rgba(0,230,255,0.06);
+}
+
+/* overlay de rayas sutil para efecto 'data-stream' */
+.barra-llenada::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 12px 100%;
+  mix-blend-mode: overlay;
+  opacity: 0.55;
+  animation: stripe-move 1.8s linear infinite;
+  border-radius: inherit;
+}
+
+/* porcentaje a la derecha */
+.porcentaje-habilidad{
+  min-width: 44px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-align: right;
+  color: #cfefff;
+  text-shadow: 0 0 8px rgba(0,230,255,0.08);
+  letter-spacing: 0.6px;
+}
+
+.nombre-habilidad {
+  width: clamp(100px, 18vw, 140px);
+}
+
+
+/* animaciones */
+@keyframes gradient-move{
+  0%{ background-position: 0% 50%; }
+  50%{ background-position: 100% 50%; }
+  100%{ background-position: 0% 50%; }
+}
+
+@keyframes stripe-move{
+  0%{ background-position: 0 0; opacity: .6; }
+  50%{ background-position: -24px 0; opacity: .45; }
+  100%{ background-position: 0 0; opacity: .6; }
+}
+
+@keyframes glow{
+  0%,100%{ box-shadow: 0 6px 18px rgba(162,76,255,0.06), 0 0 10px rgba(0,230,255,0.04); }
+  50%{ box-shadow: 0 10px 40px rgba(162,76,255,0.12), 0 0 30px rgba(0,230,255,0.08); }
+}
+
+/* efectos de 'flicker' aleatorio para el texto (sutil) */
+@keyframes flicker{
+  0%, 100%{ opacity: 1; filter: drop-shadow(0 0 6px rgba(255,45,149,0.12)); }
+  50%{ opacity: 0.92; filter: none; }
+}
+
+.nombre-habilidad, .porcentaje-habilidad{
+  animation: flicker 3.5s ease-in-out infinite;
+}
+
+/* responsive y ajustes pequeños */
+@media (max-width: 640px){
+  .barra-progreso-habilidades{ padding: 12px; }
+  .nombre-habilidad{ min-width: 100px; font-size: 0.9rem; }
+  .porcentaje-habilidad{ min-width: 36px; font-size: 0.8rem; }
+  .barra-fondo{ height: 12px; }
+}

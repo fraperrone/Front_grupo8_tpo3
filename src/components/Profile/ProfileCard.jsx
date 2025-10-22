@@ -1,10 +1,11 @@
 // components/Profile/ProfileCard.jsx
-import React, { useRef } from "react";
-import { useProfileAnimation } from "../../hooks/useProfileAnimation";
+import React, { useRef } from 'react'
+import { useProfileAnimation } from '../../hooks/useProfileAnimation'
+import BarraProgresoHabilidades from '../../actualizaciones/barra_progreso_habilidades/BarraProgresoHabilidades'
 
 const ProfileCard = ({ integrante }) => {
-  const profileRef = useRef(null);
-  useProfileAnimation(profileRef);
+  const profileRef = useRef(null)
+  useProfileAnimation(profileRef)
 
   return (
     <div className="profile" ref={profileRef}>
@@ -12,10 +13,10 @@ const ProfileCard = ({ integrante }) => {
         className="avatar"
         style={{
           backgroundImage: `url(${integrante.avatar})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          width: "100%",
-          height: "auto",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          width: '100%',
+          height: 'auto',
         }}
       />
       <div className="name">
@@ -23,14 +24,6 @@ const ProfileCard = ({ integrante }) => {
         <ul className="info">
           <li>
             <strong>Edad:</strong> {integrante.edad}
-          </li>
-          <li>
-            <strong>Habilidades:</strong>
-            <ul>
-              {integrante.habilidades.map((habilidad, idx) => (
-                <li key={idx}>{habilidad}</li>
-              ))}
-            </ul>
           </li>
           <li>
             <strong>Películas Favoritas:</strong>
@@ -50,10 +43,16 @@ const ProfileCard = ({ integrante }) => {
               </ul>
             </li>
           )}
+          <li>
+            <strong>Habilidades:</strong>
+            <ul>
+              <BarraProgresoHabilidades habilidades={integrante.habilidades} />
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ProfileCard;
+export default ProfileCard

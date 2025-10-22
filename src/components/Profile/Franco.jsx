@@ -1,24 +1,27 @@
-import React from "react";
-import "../../styles/main.css";
-import ProfileCard from "./ProfileCard.jsx";
-import avatarImg from "../../assets/avatar_franco.jpg";
+import React from 'react'
+import '../../styles/main.css'
+import ProfileCard from './ProfileCard.jsx'
+import avatarImg from '../../assets/avatar_franco.jpg'
 
 const Franco = () => {
   const integrante = {
-    nombre: "Franco Perrone",
+    nombre: 'Franco Perrone',
     edad: 34,
-    habilidades: ["JavaScript", "React", "Node.js"],
-    peliculasFavoritas: ["Inception", "The Matrix", "Interstellar"],
+    habilidades: {
+      nombre: ['JavaScript', 'React', 'Node.js'],
+      porcentaje: [90, 85, 80],
+    },
+    peliculasFavoritas: ['Inception', 'The Matrix', 'Interstellar'],
     avatar: avatarImg,
     // agregamos musicaFavorita
     musicaFavorita: [
-      "Queen - Bohemian Rhapsody",
-      "Nirvana - Smells Like Teen Spirit",
-      "The Beatles - Hey Jude",
+      'Queen - Bohemian Rhapsody',
+      'Nirvana - Smells Like Teen Spirit',
+      'The Beatles - Hey Jude',
     ],
-  };
+  }
 
-  return <ProfileCard integrante={integrante} />;
-};
+  return <ProfileCard integrante={integrante} />
+}
 
-export default Franco;
+export default Franco

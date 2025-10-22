@@ -1,6 +1,6 @@
 // pages/JsonDataPage.jsx
 import React from "react";
-import JsonData from "../Data/JsonData";
+import JsonData from "../data/JsonData";
 
 const JsonDataPage = () => {
   return (
