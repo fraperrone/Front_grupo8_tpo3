@@ -7,6 +7,16 @@ const ProfileCard = ({ integrante }) => {
   const profileRef = useRef(null)
   useProfileAnimation(profileRef)
 
+
+  // validamos que el integrante tenga las habilidades declaradas
+  const habilidadesValidas =
+    integrante.habilidades &&
+    Array.isArray(integrante.habilidades.nombre) &&
+    Array.isArray(integrante.habilidades.porcentaje) &&
+    integrante.habilidades.nombre.length === integrante.habilidades.porcentaje.length &&
+    integrante.habilidades.nombre.every((n) => typeof n === 'string') &&
+    integrante.habilidades.porcentaje.every((p) => typeof p === 'number');
+
   return (
     <div className="profile" ref={profileRef}>
       <div
@@ -45,9 +55,14 @@ const ProfileCard = ({ integrante }) => {
           )}
           <li>
             <strong>Habilidades:</strong>
-            <ul>
-              <BarraProgresoHabilidades habilidades={integrante.habilidades} />
-            </ul>
+            {habilidadesValidas ? (
+              <ul>
+                <BarraProgresoHabilidades habilidades={integrante.habilidades} />
+              </ul>
+            ) : (
+              <p>⚠️ Completar bien el objeto integrante: faltan habilidades con nombre y porcentaje.</p>
+            )}
+
           </li>
         </ul>
       </div>
