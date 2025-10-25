@@ -7,8 +7,10 @@ const ApiDataPage = () => {
     <div className="profile">
       <div className="name">
         <h1 className="title">Datos desde API Externa</h1>
+        <div className="info">
         <p>Información en tiempo real desde una API pública de Pokémon</p>
         <ApiData />
+        </div>
       </div>
     </div>
   );

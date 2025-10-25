@@ -41,7 +41,7 @@ const Footer = () => {
       <div className={styles.footerContent}>
         {/* Columna 1: Información del Proyecto */}
         <div className={styles.footerSection}>
-          <h4>TP 2 Con React</h4>
+          <h4>TP 3 Con 5 Mejoras Obligatorias</h4>
           <p>&copy; {currentYear} Grupo 8</p>
         </div>
 

@@ -221,7 +221,7 @@ li {
 }
  */
 .name {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .name h1 {
@@ -259,6 +259,11 @@ h3 {
 @media only screen and (min-width: 470px) {
   .profile {
     display: flex;
+    justify-content: center;
+  }
+
+  .info {
+    padding: 30px;
   }
 
   .profile.pre-enter {

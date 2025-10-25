@@ -61,8 +61,19 @@ const BitacoraPage = () => {
             <li>Se unificaron los estilos de los componentes de perfil</li>
           </ul>
 
+          <h2>Actualizaciones</h2>
+            <p className="mb-4"><strong>Búsqueda/Filtrado en JSON Local:</strong> Se implementó un sistema completo 
+              de búsqueda y filtrado para los datos del archivo JSON local, permitiendo 
+              a los usuarios encontrar contenido de forma más eficiente. (Búsqueda por texto, 
+              Filtros por categorías, Botón "Limpiar Filtros", Contador de resultados.)</p>
+            
+            <p className="mb-4"><strong>Paginación para la API Externa:</strong> Se implementó paginación para 
+            los datos de la api. El límite de elementos mostrados se configura en la constante ITEMS_POR_PAGINA. 
+            Se puede avanzar a la página siguiente o anterior y también ir directamente al final o al inicio.
+            Además se muestra la página actual y el total de páginas.</p>
+
           <h2>Reflexiones y evolución</h2>
-          <p className="mb-4">
+          <p className="mb-0">
             La migración a React permitió una mejor organización del código,
             mayor reutilización de componentes y una experiencia de usuario más
             fluida como SPA. El uso de hooks y estados facilitó la gestión de

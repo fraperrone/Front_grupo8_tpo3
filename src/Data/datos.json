@@ -78,5 +78,725 @@
     "genero": "Ciencia Ficción",
     "año": 2017,
     "descripcion": "Un nuevo blade runner descubre un secreto que podría sumir a la sociedad en el caos."
+  },
+  {
+    "id": 11,
+    "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+    "tipo": "Película",
+    "genero": "Fantasía",
+    "año": 2001,
+    "descripcion": "Un hobbit debe destruir un anillo mágico que amenaza el mundo."
+  },
+  {
+    "id": 12,
+    "titulo": "Harry Potter y la Piedra Filosofal",
+    "tipo": "Libro",
+    "autor": "J.K. Rowling",
+    "año": 1997,
+    "descripcion": "Un niño descubre que es mago y asiste a una escuela de magia."
+  },
+  {
+    "id": 13,
+    "titulo": "God of War",
+    "tipo": "Videojuego",
+    "genero": "Acción",
+    "año": 2018,
+    "descripcion": "Kratos y su hijo Atreus viajan por los reinos nórdicos."
+  },
+  {
+    "id": 14,
+    "titulo": "Pulp Fiction",
+    "tipo": "Película",
+    "genero": "Drama",
+    "año": 1994,
+    "descripcion": "Historias entrelazadas del mundo criminal de Los Ángeles."
+  },
+  {
+    "id": 15,
+    "titulo": "El Hobbit",
+    "tipo": "Libro",
+    "autor": "J.R.R. Tolkien",
+    "año": 1937,
+    "descripcion": "Las aventuras de Bilbo Bolsón en busca de un tesoro."
+  },
+  {
+    "id": 16,
+    "titulo": "Dark Souls III",
+    "tipo": "Videojuego",
+    "genero": "RPG",
+    "año": 2016,
+    "descripcion": "Juego de acción y rol conocido por su dificultad extrema."
+  },
+  {
+    "id": 17,
+    "titulo": "El Padrino",
+    "tipo": "Película",
+    "genero": "Drama",
+    "año": 1972,
+    "descripcion": "La saga de una familia mafiosa italoamericana."
+  },
+  {
+    "id": 18,
+    "titulo": "Crimen y Castigo",
+    "tipo": "Libro",
+    "autor": "Fiódor Dostoyevski",
+    "año": 1866,
+    "descripcion": "Un estudiante comete un asesinato y lucha con su conciencia."
+  },
+  {
+    "id": 19,
+    "titulo": "The Last of Us Part II",
+    "tipo": "Videojuego",
+    "genero": "Aventura",
+    "año": 2020,
+    "descripcion": "Secuela sobre supervivencia en un mundo postapocalíptico."
+  },
+  {
+    "id": 20,
+    "titulo": "Forrest Gump",
+    "tipo": "Película",
+    "genero": "Drama",
+    "año": 1994,
+    "descripcion": "La extraordinaria vida de un hombre con buen corazón."
+  },
+  {
+    "id": 21,
+    "titulo": "Don Quijote de la Mancha",
+    "tipo": "Libro",
+    "autor": "Miguel de Cervantes",
+    "año": 1605,
+    "descripcion": "Las aventuras de un hidalgo que enloquece leyendo libros de caballería."
+  },
+  {
+    "id": 22,
+    "titulo": "Minecraft",
+    "tipo": "Videojuego",
+    "genero": "Sandbox",
+    "año": 2011,
+    "descripcion": "Juego de construcción y supervivencia en un mundo de bloques."
+  },
+  {
+    "id": 23,
+    "titulo": "Fight Club",
+    "tipo": "Película",
+    "genero": "Drama",
+    "año": 1999,
+    "descripcion": "Un oficinista insomne forma un club de pelea clandestino."
+  },
+  {
+    "id": 24,
+    "titulo": "Fahrenheit 451",
+    "tipo": "Libro",
+    "autor": "Ray Bradbury",
+    "año": 1953,
+    "descripcion": "Distopía donde los libros están prohibidos y son quemados."
+  },
+  {
+    "id": 25,
+    "titulo": "Elden Ring",
+    "tipo": "Videojuego",
+    "genero": "RPG",
+    "año": 2022,
+    "descripcion": "Mundo abierto de fantasía oscura creado por FromSoftware."
+  },
+  {
+    "id": 26,
+    "titulo": "Gladiador",
+    "tipo": "Película",
+    "genero": "Acción",
+    "año": 2000,
+    "descripcion": "Un general romano busca venganza tras la traición del emperador."
+  },
+  {
+    "id": 27,
+    "titulo": "Orgullo y Prejuicio",
+    "tipo": "Libro",
+    "autor": "Jane Austen",
+    "año": 1813,
+    "descripcion": "Romance y crítica social en la Inglaterra del siglo XIX."
+  },
+  {
+    "id": 28,
+    "titulo": "Hollow Knight",
+    "tipo": "Videojuego",
+    "genero": "Metroidvania",
+    "año": 2017,
+    "descripcion": "Exploración de un reino de insectos subterráneo."
+  },
+  {
+    "id": 29,
+    "titulo": "El Caballero de la Noche",
+    "tipo": "Película",
+    "genero": "Acción",
+    "año": 2008,
+    "descripcion": "Batman enfrenta al Joker en Gotham City."
+  },
+  {
+    "id": 30,
+    "titulo": "Crónica de una Muerte Anunciada",
+    "tipo": "Libro",
+    "autor": "Gabriel García Márquez",
+    "año": 1981,
+    "descripcion": "Investigación de un asesinato anunciado pero inevitable."
+  },
+  {
+    "id": 31,
+    "titulo": "Celeste",
+    "tipo": "Videojuego",
+    "genero": "Plataformas",
+    "año": 2018,
+    "descripcion": "Plataformas desafiantes sobre escalada de montañas y salud mental."
+  },
+  {
+    "id": 32,
+    "titulo": "Origen",
+    "tipo": "Película",
+    "genero": "Ciencia Ficción",
+    "año": 2010,
+    "descripcion": "Ladrones que roban secretos dentro de sueños."
+  },
+  {
+    "id": 33,
+    "titulo": "El Guardián entre el Centeno",
+    "tipo": "Libro",
+    "autor": "J.D. Salinger",
+    "año": 1951,
+    "descripcion": "La alienación adolescente narrada por Holden Caulfield."
+  },
+  {
+    "id": 34,
+    "titulo": "Hades",
+    "tipo": "Videojuego",
+    "genero": "Roguelike",
+    "año": 2020,
+    "descripcion": "Escapa del inframundo en este roguelike de mitología griega."
+  },
+  {
+    "id": 35,
+    "titulo": "Parasite",
+    "tipo": "Película",
+    "genero": "Drama",
+    "año": 2019,
+    "descripcion": "Una familia pobre se infiltra en la vida de una familia rica."
+  },
+  {
+    "id": 36,
+    "titulo": "El Gran Gatsby",
+    "tipo": "Libro",
+    "autor": "F. Scott Fitzgerald",
+    "año": 1925,
+    "descripcion": "Crítica al sueño americano en los años 20."
+  },
+  {
+    "id": 37,
+    "titulo": "Stardew Valley",
+    "tipo": "Videojuego",
+    "genero": "Simulación",
+    "año": 2016,
+    "descripcion": "Simulador de granja con elementos de RPG."
+  },
+  {
+    "id": 38,
+    "titulo": "Volver al Futuro",
+    "tipo": "Película",
+    "genero": "Ciencia Ficción",
+    "año": 1985,
+    "descripcion": "Un adolescente viaja al pasado y debe asegurar su propia existencia."
+  },
+  {
+    "id": 39,
+    "titulo": "Matar a un Ruiseñor",
+    "tipo": "Libro",
+    "autor": "Harper Lee",
+    "año": 1960,
+    "descripcion": "Racismo y justicia en el sur de Estados Unidos."
+  },
+  {
+    "id": 40,
+    "titulo": "Portal 2",
+    "tipo": "Videojuego",
+    "genero": "Puzzle",
+    "año": 2011,
+    "descripcion": "Resuelve puzzles con portales en instalaciones de prueba."
+  },
+  {
+    "id": 41,
+    "titulo": "Avengers: Endgame",
+    "tipo": "Película",
+    "genero": "Acción",
+    "año": 2019,
+    "descripcion": "Los Vengadores enfrentan su batalla final contra Thanos."
+  },
+  {
+    "id": 42,
+    "titulo": "Rayuela",
+    "tipo": "Libro",
+    "autor": "Julio Cortázar",
+    "año": 1963,
+    "descripcion": "Novela experimental que puede leerse en múltiples órdenes."
+  },
+  {
+    "id": 43,
+    "titulo": "Undertale",
+    "tipo": "Videojuego",
+    "genero": "RPG",
+    "año": 2015,
+    "descripcion": "RPG donde puedes vencer enemigos sin violencia."
+  },
+  {
+    "id": 44,
+    "titulo": "Joker",
+    "tipo": "Película",
+    "genero": "Drama",
+    "año": 2019,
+    "descripcion": "Origen oscuro del icónico villano de Batman."
+  },
+  {
+    "id": 45,
+    "titulo": "El Principito",
+    "tipo": "Libro",
+    "autor": "Antoine de Saint-Exupéry",
+    "año": 1943,
+    "descripcion": "Fábula sobre un príncipe que viaja por diferentes planetas."
+  },
+  {
+    "id": 46,
+    "titulo": "Bloodborne",
+    "tipo": "Videojuego",
+    "genero": "RPG",
+    "año": 2015,
+    "descripcion": "Terror gótico y acción desafiante en Yharnam."
+  },
+  {
+    "id": 47,
+    "titulo": "Titanic",
+    "tipo": "Película",
+    "genero": "Romance",
+    "año": 1997,
+    "descripcion": "Romance trágico durante el hundimiento del Titanic."
+  },
+  {
+    "id": 48,
+    "titulo": "La Metamorfosis",
+    "tipo": "Libro",
+    "autor": "Franz Kafka",
+    "año": 1915,
+    "descripcion": "Un hombre despierta convertido en insecto gigante."
+  },
+  {
+    "id": 49,
+    "titulo": "Terraria",
+    "tipo": "Videojuego",
+    "genero": "Sandbox",
+    "año": 2011,
+    "descripcion": "Exploración, construcción y combate en 2D."
+  },
+  {
+    "id": 50,
+    "titulo": "La Lista de Schindler",
+    "tipo": "Película",
+    "genero": "Drama",
+    "año": 1993,
+    "descripcion": "Historia real de un empresario que salvó vidas durante el Holocausto."
+  },
+  {
+    "id": 51,
+    "titulo": "Los Miserables",
+    "tipo": "Libro",
+    "autor": "Victor Hugo",
+    "año": 1862,
+    "descripcion": "Épica sobre justicia y redención en la Francia del siglo XIX."
+  },
+  {
+    "id": 52,
+    "titulo": "Sekiro: Shadows Die Twice",
+    "tipo": "Videojuego",
+    "genero": "Acción",
+    "año": 2019,
+    "descripcion": "Ninja busca venganza en el Japón del período Sengoku."
+  },
+  {
+    "id": 53,
+    "titulo": "Avatar",
+    "tipo": "Película",
+    "genero": "Ciencia Ficción",
+    "año": 2009,
+    "descripcion": "Un marine parapléjico explora el mundo alienígena Pandora."
+  },
+  {
+    "id": 54,
+    "titulo": "El Alquimista",
+    "tipo": "Libro",
+    "autor": "Paulo Coelho",
+    "año": 1988,
+    "descripcion": "Un pastor andaluz busca su leyenda personal."
+  },
+  {
+    "id": 55,
+    "titulo": "Cuphead",
+    "tipo": "Videojuego",
+    "genero": "Plataformas",
+    "año": 2017,
+    "descripcion": "Run and gun con estilo de animación de los años 30."
+  },
+  {
+    "id": 56,
+    "titulo": "Star Wars: Episodio V",
+    "tipo": "Película",
+    "genero": "Ciencia Ficción",
+    "año": 1980,
+    "descripcion": "La rebelión enfrenta al Imperio en Hoth."
+  },
+  {
+    "id": 57,
+    "titulo": "Un Mundo Feliz",
+    "tipo": "Libro",
+    "autor": "Aldous Huxley",
+    "año": 1932,
+    "descripcion": "Distopía sobre una sociedad perfectamente controlada."
+  },
+  {
+    "id": 58,
+    "titulo": "Overwatch",
+    "tipo": "Videojuego",
+    "genero": "Shooter",
+    "año": 2016,
+    "descripcion": "Shooter de héroes en equipo con diversos personajes."
+  },
+  {
+    "id": 59,
+    "titulo": "Jurassic Park",
+    "tipo": "Película",
+    "genero": "Aventura",
+    "año": 1993,
+    "descripcion": "Dinosaurios clonados escapan en un parque temático."
+  },
+  {
+    "id": 60,
+    "titulo": "Rebelión en la Granja",
+    "tipo": "Libro",
+    "autor": "George Orwell",
+    "año": 1945,
+    "descripcion": "Alegoría sobre la corrupción del poder."
+  },
+  {
+    "id": 61,
+    "titulo": "Among Us",
+    "tipo": "Videojuego",
+    "genero": "Multijugador",
+    "año": 2018,
+    "descripcion": "Encuentra al impostor en una nave espacial."
+  },
+  {
+    "id": 62,
+    "titulo": "El Silencio de los Inocentes",
+    "tipo": "Película",
+    "genero": "Terror",
+    "año": 1991,
+    "descripcion": "Una agente del FBI consulta a un asesino en serie."
+  },
+  {
+    "id": 63,
+    "titulo": "El Retrato de Dorian Gray",
+    "tipo": "Libro",
+    "autor": "Oscar Wilde",
+    "año": 1890,
+    "descripcion": "Un hombre permanece joven mientras su retrato envejece."
+  },
+  {
+    "id": 64,
+    "titulo": "League of Legends",
+    "tipo": "Videojuego",
+    "genero": "MOBA",
+    "año": 2009,
+    "descripcion": "MOBA competitivo con más de 160 campeones."
+  },
+  {
+    "id": 65,
+    "titulo": "Mad Max: Furia en el Camino",
+    "tipo": "Película",
+    "genero": "Acción",
+    "año": 2015,
+    "descripcion": "Persecución épica en un desierto postapocalíptico."
+  },
+  {
+    "id": 66,
+    "titulo": "Moby Dick",
+    "tipo": "Libro",
+    "autor": "Herman Melville",
+    "año": 1851,
+    "descripcion": "Obsesión de un capitán por una ballena blanca."
+  },
+  {
+    "id": 67,
+    "titulo": "Fortnite",
+    "tipo": "Videojuego",
+    "genero": "Battle Royale",
+    "año": 2017,
+    "descripcion": "Battle Royale con construcción y 100 jugadores."
+  },
+  {
+    "id": 68,
+    "titulo": "Shutter Island",
+    "tipo": "Película",
+    "genero": "Thriller",
+    "año": 2010,
+    "descripcion": "Un marshal investiga una desaparición en un hospital psiquiátrico."
+  },
+  {
+    "id": 69,
+    "titulo": "La Odisea",
+    "tipo": "Libro",
+    "autor": "Homero",
+    "año": -800,
+    "descripcion": "El viaje de Odiseo de regreso a Ítaca tras la Guerra de Troya."
+  },
+  {
+    "id": 70,
+    "titulo": "Rocket League",
+    "tipo": "Videojuego",
+    "genero": "Deportes",
+    "año": 2015,
+    "descripcion": "Fútbol con autos propulsados por cohetes."
+  },
+  {
+    "id": 71,
+    "titulo": "El Resplandor",
+    "tipo": "Película",
+    "genero": "Terror",
+    "año": 1980,
+    "descripcion": "Un escritor enloquece en un hotel aislado."
+  },
+  {
+    "id": 72,
+    "titulo": "Cumbres Borrascosas",
+    "tipo": "Libro",
+    "autor": "Emily Brontë",
+    "año": 1847,
+    "descripcion": "Amor tormentoso entre Heathcliff y Catherine."
+  },
+  {
+    "id": 73,
+    "titulo": "Fall Guys",
+    "tipo": "Videojuego",
+    "genero": "Party",
+    "año": 2020,
+    "descripcion": "Battle Royale de minijuegos estilo obstacle course."
+  },
+  {
+    "id": 74,
+    "titulo": "Django Sin Cadenas",
+    "tipo": "Película",
+    "genero": "Western",
+    "año": 2012,
+    "descripcion": "Un esclavo liberado busca rescatar a su esposa."
+  },
+  {
+    "id": 75,
+    "titulo": "El Conde de Montecristo",
+    "tipo": "Libro",
+    "autor": "Alexandre Dumas",
+    "año": 1844,
+    "descripcion": "Venganza épica tras años de prisión injusta."
+  },
+  {
+    "id": 76,
+    "titulo": "Apex Legends",
+    "tipo": "Videojuego",
+    "genero": "Battle Royale",
+    "año": 2019,
+    "descripcion": "Battle Royale con leyendas y habilidades únicas."
+  },
+  {
+    "id": 77,
+    "titulo": "El Sexto Sentido",
+    "tipo": "Película",
+    "genero": "Thriller",
+    "año": 1999,
+    "descripcion": "Un niño ve personas muertas."
+  },
+  {
+    "id": 78,
+    "titulo": "Drácula",
+    "tipo": "Libro",
+    "autor": "Bram Stoker",
+    "año": 1897,
+    "descripcion": "La historia del vampiro más famoso de la literatura."
+  },
+  {
+    "id": 79,
+    "titulo": "Valorant",
+    "tipo": "Videojuego",
+    "genero": "Shooter",
+    "año": 2020,
+    "descripcion": "Shooter táctico 5v5 con agentes y habilidades."
+  },
+  {
+    "id": 80,
+    "titulo": "Los Vengadores",
+    "tipo": "Película",
+    "genero": "Acción",
+    "año": 2012,
+    "descripcion": "Los superhéroes de Marvel se unen por primera vez."
+  },
+  {
+    "id": 81,
+    "titulo": "Frankenstein",
+    "tipo": "Libro",
+    "autor": "Mary Shelley",
+    "año": 1818,
+    "descripcion": "Un científico crea vida con consecuencias trágicas."
+  },
+  {
+    "id": 82,
+    "titulo": "Counter-Strike: Global Offensive",
+    "tipo": "Videojuego",
+    "genero": "Shooter",
+    "año": 2012,
+    "descripcion": "Shooter táctico competitivo de terroristas vs antiterroristas."
+  },
+  {
+    "id": 83,
+    "titulo": "El Laberinto del Fauno",
+    "tipo": "Película",
+    "genero": "Fantasía",
+    "año": 2006,
+    "descripcion": "Una niña escapa a un mundo fantástico durante la guerra civil española."
+  },
+  {
+    "id": 84,
+    "titulo": "Las Aventuras de Sherlock Holmes",
+    "tipo": "Libro",
+    "autor": "Arthur Conan Doyle",
+    "año": 1892,
+    "descripcion": "Casos del famoso detective de Baker Street."
+  },
+  {
+    "id": 85,
+    "titulo": "Destiny 2",
+    "tipo": "Videojuego",
+    "genero": "Shooter",
+    "año": 2017,
+    "descripcion": "Shooter MMO con PvE y PvP en el espacio."
+  },
+  {
+    "id": 86,
+    "titulo": "Whiplash",
+    "tipo": "Película",
+    "genero": "Drama",
+    "año": 2014,
+    "descripcion": "Un baterista sufre bajo un instructor abusivo."
+  },
+  {
+    "id": 87,
+    "titulo": "Siddhartha",
+    "tipo": "Libro",
+    "autor": "Hermann Hesse",
+    "año": 1922,
+    "descripcion": "Búsqueda espiritual en la India antigua."
+  },
+  {
+    "id": 88,
+    "titulo": "Animal Crossing: New Horizons",
+    "tipo": "Videojuego",
+    "genero": "Simulación",
+    "año": 2020,
+    "descripcion": "Construye tu isla paradisíaca con adorables vecinos."
+  },
+  {
+    "id": 89,
+    "titulo": "Her",
+    "tipo": "Película",
+    "genero": "Romance",
+    "año": 2013,
+    "descripcion": "Un hombre se enamora de una inteligencia artificial."
+  },
+  {
+    "id": 90,
+    "titulo": "La Insoportable Levedad del Ser",
+    "tipo": "Libro",
+    "autor": "Milan Kundera",
+    "año": 1984,
+    "descripcion": "Amor y existencialismo durante la Primavera de Praga."
+  },
+  {
+    "id": 91,
+    "titulo": "Super Mario Odyssey",
+    "tipo": "Videojuego",
+    "genero": "Plataformas",
+    "año": 2017,
+    "descripcion": "Mario viaja por diversos reinos rescatando a Peach."
+  },
+  {
+    "id": 92,
+    "titulo": "Eterno Resplandor de una Mente sin Recuerdos",
+    "tipo": "Película",
+    "genero": "Romance",
+    "año": 2004,
+    "descripcion": "Una pareja borra sus recuerdos mutuos."
+  },
+  {
+    "id": 93,
+    "titulo": "El Nombre del Viento",
+    "tipo": "Libro",
+    "autor": "Patrick Rothfuss",
+    "año": 2007,
+    "descripcion": "Un posadero narra su vida como legendario mago y músico."
+  },
+  {
+    "id": 94,
+    "titulo": "Ghost of Tsushima",
+    "tipo": "Videojuego",
+    "genero": "Acción",
+    "año": 2020,
+    "descripcion": "Samurái defiende Japón de invasores mongoles."
+  },
+  {
+    "id": 95,
+    "titulo": "La La Land",
+    "tipo": "Película",
+    "genero": "Musical",
+    "año": 2016,
+    "descripcion": "Romance entre una aspirante a actriz y un músico de jazz."
+  },
+  {
+    "id": 96,
+    "titulo": "El Código Da Vinci",
+    "tipo": "Libro",
+    "autor": "Dan Brown",
+    "año": 2003,
+    "descripcion": "Thriller sobre conspiraciones religiosas y arte."
+  },
+  {
+    "id": 97,
+    "titulo": "Horizon Zero Dawn",
+    "tipo": "Videojuego",
+    "genero": "RPG",
+    "año": 2017,
+    "descripcion": "Cazadora enfrenta máquinas en un mundo postapocalíptico."
+  },
+  {
+    "id": 98,
+    "titulo": "Dunkerque",
+    "tipo": "Película",
+    "genero": "Bélica",
+    "año": 2017,
+    "descripcion": "Evacuación de soldados aliados durante la Segunda Guerra Mundial."
+  },
+  {
+    "id": 99,
+    "titulo": "Juego de Ender",
+    "tipo": "Libro",
+    "autor": "Orson Scott Card",
+    "año": 1985,
+    "descripcion": "Niño genio entrenado para liderar en guerra interestelar."
+  },
+  {
+    "id": 100,
+    "titulo": "Cyberpunk 2077",
+    "tipo": "Videojuego",
+    "genero": "RPG",
+    "año": 2020,
+    "descripcion": "RPG de mundo abierto en Night City, un futuro distópico."
   }
 ]

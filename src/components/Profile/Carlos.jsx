@@ -7,11 +7,14 @@ const Carlos = () => {
   const integrante = {
     nombre: "Carlos Sebastian Gauto",
     edad: 34,
-    habilidades: ["Java", "JavaScript", "Node.js"],
+    habilidades: {
+      nombre: ["Java", "JavaScript", "Node.js"],
+      porcentaje: [65, 70, 55],
+    },
     peliculasFavoritas: ["Blade Runner", "Interstellar", "Matrix"],
     avatar: avatarImg,
     musicaFavorita: [
-      "(I Just) Died In Your Arms Tonight",
+      "I (Just) Died In Your Arms Tonight",
       "Walk of Life",
       "Africa",
     ],

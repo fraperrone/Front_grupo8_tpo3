@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div className="profile">
       <div className="name">
-        <h1 className="title">Equipo de Desarrollo Web - GRUPO 8</h1>
+        <h1 className="title mb-4">Equipo de Desarrollo Web - GRUPO 8</h1>
         <p>
           Somos un grupo de estudiantes dedicados a crear soluciones web
           innovadoras y funcionales.

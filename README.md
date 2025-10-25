@@ -18,7 +18,32 @@ Con esta actualización, cada habilidad se presenta como una barra de progreso. 
 
 Esta mejora aporta una experiencia más intuitiva y atractiva para quienes consultan el perfil, facilitando la evaluación rápida de las capacidades del usuario
 
+---
+
+### Búsqueda/Filtrado en JSON Local:
+Antes:
+No había filtros, se mostraba la lista completa de datos de películas, libros y videojuegos.
+
+![sin filtros](imgs_readme/json_antes.png)
+
+Ahora:
+Se implementó un sistema completo de búsqueda y filtrado para los datos del archivo JSON local, permitiendo a los usuarios encontrar contenido de forma más eficiente. (Búsqueda por texto, Filtros por categorías, Botón "Limpiar Filtros", Contador de resultados.)
+
+![con filtros](imgs_readme/json_despues.png)
+
+Con éstos filtros el usuario puede buscar por tipo, por género, ver la cantidad de resultados de cada uno, o escribir en la bara de búsqueda por un dato específico.
 
 ---
 
+### Paginación para la API Externa: 
+Antes:
+Se mostraban todos los resultados de la api en la misma página, para no sobrecargarla se establecía un límite en la url traída por axios a 20.
+
+![sin paginación](imgs_readme/api_antes.png)
+
+Ahora: Se implementó paginación para los datos de la api. El límite de elementos mostrados se configura en la constante ITEMS_POR_PAGINA. Se puede avanzar a la página siguiente o anterior y también ir directamente al final o al inicio. Además se muestra la página actual y el total de páginas.
+
+![con paginación](imgs_readme/api_despues.png)
+
+---
 
