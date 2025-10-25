@@ -11,7 +11,7 @@ export const Layout = ({ children }) => {
     <div className="layout body">
       {location.pathname !== "/" && (
         <div className="back-button-container">
-          <button className="back-button" onClick={() => navigate(-1)}>
+          <button className="back-button" onClick={() => navigate('/')}>
             ← Volver
           </button>
         </div>
