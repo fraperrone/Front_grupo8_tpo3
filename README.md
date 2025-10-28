@@ -47,3 +47,17 @@ Ahora: Se implementó paginación para los datos de la api. El límite de elemen
 
 ---
 
+### Mejoras visuales en módulos:
+Antes:
+Los modulos de API, BITACORA y DATAJSON no contaban con implementacion visual dinamica
+
+![sin animacion suave](imgs_readme/image_sin_animacion_suave.png)
+
+Ahora:
+Se agregaron animaciones suaves en los módulos de Bitácora, Datos y API, que anteriormente no contaban con implementación visual dinámica. Esto mejora la experiencia del usuario al aportar transiciones más fluidas y coherentes
+
+![con animacion suave](imgs_readme/image_animacion_suave.png)
+
+---
+
+
