@@ -1,10 +1,16 @@
 // pages/JsonDataPage.jsx
 import React from "react";
 import JsonData from "../data/JsonData";
+import { useNormalAnimation } from "../hooks/useNormalAnimation";
 
 const JsonDataPage = () => {
+
+  const jsonDataRef = React.useRef(null);
+  //usamos el normal animation hook
+  useNormalAnimation(jsonDataRef);
+
   return (
-    <div className="profile">
+    <div className="profile" ref={jsonDataRef}>
       <div className="name">
         <h1 className="title">Datos desde Archivo JSON</h1>
         <div className="info">
