@@ -1,10 +1,16 @@
 // src/pages/HomePage.jsx
 import React from "react";
 import { Link } from "react-router-dom";
+import { useNormalAnimation } from "../hooks/useNormalAnimation";
 
 const HomePage = () => {
+
+
+  const homePageRef = React.useRef(null);
+  useNormalAnimation(homePageRef);
+
   return (
-    <div className="profile">
+    <div className="profile" ref={homePageRef}>
       <div className="name">
         <h1 className="title mb-4">Equipo de Desarrollo Web - GRUPO 8</h1>
         <p>
