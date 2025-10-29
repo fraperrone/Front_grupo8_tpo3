@@ -1,7 +1,7 @@
 // components/Layout/Sidebar.jsx
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import "./Sidebar.css";
+import "./sidebar.css";
 // import logo from '../../assets/logo.png';
 
 import Logo from "../logo/Logo";

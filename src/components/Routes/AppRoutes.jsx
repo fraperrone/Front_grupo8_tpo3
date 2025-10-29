@@ -8,7 +8,7 @@ import CarlosPage from "../../pages/CarlosPage";
 import FrancoPage from "../../pages/FrancoPage";
 import GuillePage from "../../pages/GuillePage";
 import PaulaPage from "../../pages/PaulaPage";
-import { Layout } from "../Layout/Layout";
+import { Layout } from "../layout/Layout";
 
 const AppRoutes = () => {
   return (
