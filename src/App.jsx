@@ -1,6 +1,6 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import Sidebar from "./components/Layout/Sidebar.jsx";
-import AppRoutes from "./components/routes/AppRoutes";
+import AppRoutes from "./components/Routes/AppRoutes.jsx";
 import "./styles/main.css";
 import "./styles/responsive.css";
 import "./styles/app.css";
