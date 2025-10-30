@@ -13,10 +13,8 @@ const Carrusel = () => {
   const item = items[index];
 
   return (
-    <div className="search-filter-container">
-      <button onClick={prev} className="">
-        ‹
-      </button>
+    <div className="">
+      
       <div className="carrusel-item">
         <div
           style={{ background: item.bg, padding: '2rem', borderRadius: '8px' }}
@@ -34,6 +32,10 @@ const Carrusel = () => {
           )}
         </div>
       </div>{' '}
+          {/* btones */}
+      <button onClick={prev} className="">
+        ‹
+      </button>
       <button onClick={next} className="">
         ›
       </button>

@@ -2,6 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useNormalAnimation } from "../hooks/useNormalAnimation";
+import Carrusel from "../actualizaciones/carrusel/Carrusel";
 
 const HomePage = () => {
 
@@ -17,6 +18,9 @@ const HomePage = () => {
           Somos un grupo de estudiantes dedicados a crear soluciones web
           innovadoras y funcionales.
         </p>
+
+        {/* hacemos prueba de carrusel */}
+        <Carrusel></Carrusel>
 
         <div className="integrantes-grid">
           <h2>Nuestros Integrantes</h2>

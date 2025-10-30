@@ -14,8 +14,7 @@ function App() {
         <ParticleBackground />
         <Sidebar />
 
-        {/* agregamos carrusel de propyectos */}
-        <Carrusel items={[]} />
+        {/*  */}
         <AppRoutes />
       </div>
     </Router>
