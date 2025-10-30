@@ -5,6 +5,7 @@ import "./styles/main.css";
 import "./styles/responsive.css";
 import "./styles/App.css";
 import ParticleBackground from "./components/animation/ParticleBackground";
+import Carrusel from "./actualizaciones/carrusel/Carrusel.jsx";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       <div className="app background-style">
         <ParticleBackground />
         <Sidebar />
+
+        {/* agregamos carrusel de propyectos */}
+        <Carrusel items={[]} />
         <AppRoutes />
       </div>
     </Router>
