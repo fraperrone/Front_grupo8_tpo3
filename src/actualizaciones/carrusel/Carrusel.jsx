@@ -9,17 +9,20 @@ const Carrusel = () => {
   const next = () => setIndex((i) => (i === items.length - 1 ? 0 : i + 1))
 
   //definimos nosotros los proyectos (items)
-  const items = dataCarrusel;
-  const item = items[index];
+  const items = dataCarrusel
+  const item = items[index]
 
   return (
     <div className="">
-      
-      <div className="carrusel-item">
+      <div className="">
         <div
-          style={{ background: item.bg, padding: '2rem', borderRadius: '8px' }}
+          style={{ background: '#ddddff', padding: '2rem', borderRadius: '8px' }}
         >
-          <h2>{item.title}</h2>
+          <h2>
+            <a href={item.url}
+              target="_blank"
+            >{item.title}</a>
+          </h2>
 
           {item.list ? (
             <ul>
@@ -32,7 +35,7 @@ const Carrusel = () => {
           )}
         </div>
       </div>{' '}
-          {/* btones */}
+      {/* btones */}
       <button onClick={prev} className="">
         ‹
       </button>

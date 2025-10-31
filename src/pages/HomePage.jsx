@@ -1,17 +1,16 @@
 // src/pages/HomePage.jsx
-import React from "react";
-import { Link } from "react-router-dom";
-import { useNormalAnimation } from "../hooks/useNormalAnimation";
-import Carrusel from "../actualizaciones/carrusel/Carrusel";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { useNormalAnimation } from '../hooks/useNormalAnimation'
+import Carrusel from '../actualizaciones/carrusel/Carrusel'
 
 const HomePage = () => {
-
-
-  const homePageRef = React.useRef(null);
-  useNormalAnimation(homePageRef);
+  const homePageRef = React.useRef(null)
+  useNormalAnimation(homePageRef)
 
   return (
     <div className="profile" ref={homePageRef}>
+
       <div className="name">
         <h1 className="title mb-4">Equipo de Desarrollo Web - GRUPO 8</h1>
         <p>
@@ -20,6 +19,7 @@ const HomePage = () => {
         </p>
 
         {/* hacemos prueba de carrusel */}
+        <h2>Nuestros Proyectos</h2>
         <Carrusel></Carrusel>
 
         <div className="integrantes-grid">
@@ -59,10 +59,10 @@ const HomePage = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage
 
 // // src/pages/HomePage.jsx
 // import React from 'react';
