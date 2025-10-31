@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useNormalAnimation } from '../hooks/useNormalAnimation'
-import Carrusel from '../actualizaciones/carrusel/Carrusel'
+import Carousel from '../actualizaciones/carousel/Carousel'
 
 const HomePage = () => {
   const homePageRef = React.useRef(null)
@@ -20,7 +20,7 @@ const HomePage = () => {
 
         {/* hacemos prueba de carrusel */}
         <h2>Nuestros Proyectos</h2>
-        <Carrusel></Carrusel>
+        <Carousel></Carousel>
 
         <div className="integrantes-grid">
           <h2>Nuestros Integrantes</h2>

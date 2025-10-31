@@ -5,7 +5,6 @@ import "./styles/main.css";
 import "./styles/responsive.css";
 import "./styles/App.css";
 import ParticleBackground from "./components/animation/ParticleBackground";
-import Carrusel from "./actualizaciones/carrusel/Carrusel.jsx";
 
 function App() {
   return (
