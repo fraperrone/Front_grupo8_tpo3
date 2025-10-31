@@ -60,4 +60,17 @@ Se agregaron animaciones suaves en los módulos de Bitácora, Datos y API, que a
 
 ---
 
+### Mejoras visuales en carrusel:
+
+Antes:  
+La interfaz no contaba con un carrusel para mostrar contenido visual. Las imágenes se presentaban de forma estática, sin interacción ni transición.
+
+![sin carrusel](imgs_readme/image_sin_carrusel.png)
+
+Ahora:  
+Se implementó un carrusel dinámico que permite visualizar imágenes con transiciones suaves y navegación automática. Esto mejora la experiencia del usuario al aportar movimiento, organización y estética visual.
+
+![con carrusel](imgs_readme/image_con_carrusel.png)
+
+
 

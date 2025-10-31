@@ -102,6 +102,11 @@ const BitacoraPage = () => {
             atributos.
           </p>
 
+          <p className="mb-4">
+            <strong>Carrusel visual</strong> Se incorporó un carrusel dinámico para mostrar contenido visual con transiciones suaves, reemplazando la presentación estática anterior. Esta mejora aporta interacción, organización y una experiencia más atractiva para el usuario.
+          </p>
+
+
           <h2>Reflexiones y evolución</h2>
           <p className="mb-0">
             La migración a React permitió una mejor organización del código,

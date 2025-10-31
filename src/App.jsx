@@ -12,6 +12,8 @@ function App() {
       <div className="app background-style">
         <ParticleBackground />
         <Sidebar />
+
+        {/*  */}
         <AppRoutes />
       </div>
     </Router>
